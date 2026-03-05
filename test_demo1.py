@@ -15,12 +15,12 @@ import pytest
 def test_demo1():
     print("Hello Vino")
 @pytest.mark.smoke
-#@pytest.mark.xfail
+@pytest.mark.xfail
 def test_sum(setup):
     a=10
     b=20
     c=a+b
-    print("sum is",c)
+    assert c==35
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1])
 def gitdemo():
