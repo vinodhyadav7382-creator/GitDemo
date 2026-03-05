@@ -20,11 +20,12 @@ def test_sum(setup):
     a=10
     b=20
     c=a+b
+    #print("sum is",c)
     assert c==35
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1])
-def gitdemo():
-    print("updated code")
-    print("hello world")
-    #print("hi good afternoon")
-
+def gitdemo2():
+    a=10
+    b=20
+    c=a+b
+    print(c)
