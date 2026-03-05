@@ -25,3 +25,6 @@ def test_crossBrowser(crossBrowser):
     print(crossBrowser[1])
 def gitdemo():
     print("updated code")
+    print("hello world")
+    print("hi good afternoon")
+
