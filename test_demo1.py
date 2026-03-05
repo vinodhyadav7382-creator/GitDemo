@@ -29,3 +29,7 @@ def gitdemo2():
     b=20
     c=a+b
     print(c)
+def test_demo7():
+    print("test demo7")
+def test_demo6():
+    print("test demo6")

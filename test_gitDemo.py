@@ -8,3 +8,5 @@ def test_gitdemo1():
 
 def test_demo():
     print("test demo")
+def test_demo5():
+    print("test demo5")
