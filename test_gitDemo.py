@@ -6,7 +6,7 @@ def test_gitdemo1():
     assert c==15
     #print(c)
 
-def test_demo():
+def test_demo9():
     print("test demo")
 def test_demo5():
     print("test demo5")

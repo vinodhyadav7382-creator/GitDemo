@@ -24,11 +24,12 @@ def test_sum(setup):
     assert c==35
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1])
-def gitdemo2():
-    a=10
+def test_sub():
+    a=30
     b=20
-    c=a+b
+    c=a-b
     print(c)
+    assert c==15
 def test_demo7():
     print("test demo7")
 def test_demo6():
